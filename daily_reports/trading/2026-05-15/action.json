@@ -1,0 +1,51 @@
+{
+  "date": "2026-05-15",
+  "time_utc": "2026-05-15T18:01:16.809318+00:00",
+  "ticker": "SLVRUBF",
+  "signal": "BUY",
+  "p_up": 0.8070894018311171,
+  "p_short": null,
+  "rationale": "p_up=0.807, trend5d=0.7924, режим=uptrend_medium, cooldown ещё 0d",
+  "current_price": 84.91200256347656,
+  "recommendation": "🟢 КУПИТЬ SLVRUBF — production-модель видит UP (p_up=81%). Trailing stop 7%, max hold 45d.",
+  "source": "production_inference",
+  "actual_signal_date": "2026-05-14",
+  "regime": "uptrend_medium",
+  "p_up_trend_5d": 0.7924,
+  "p_up_trend_10d": 0.7615,
+  "above_threshold": true,
+  "cooldown_remaining": 0,
+  "paper_trade": {
+    "executed": true,
+    "skipped_reason": null,
+    "user_config_applied": {
+      "current_balance_rub": 1967617.02,
+      "allocation_pct": 30.0,
+      "allocation_rub": 590285.11,
+      "risk_pct": 5.0,
+      "lots_dynamic": 29,
+      "lots_static": 15,
+      "compounding": true
+    },
+    "raw_output": "  Нет сигналов на 2026-05-15. Пропускаем.\n"
+  },
+  "portfolio_status": "=== Sandbox портфель ===\n  Account ID: df3d7a77-3e75-4274-8467-fe08085256ff\n  Total:      1,967,617.02 RUB\n  Shares:     0.00 RUB\n  Bonds:      0.00 RUB\n  ETF:        0.00 RUB\n  Currencies: 1,099,441.02 RUB\n  Futures:    868,176.00 RUB\n  Expected yield: {'units': '78', 'nano': 874300000}\n  Positions: 2\n    - currency figi=RUB000UTSTOM qty=1099441 avg=1\n    - futures figi=FSLVRUB00000 qty=48 avg=199\n",
+  "gold": {
+    "date": "2026-05-15",
+    "ticker": "GLDRUBF",
+    "signal": "HOLD",
+    "p_up": 0.5066850545395837,
+    "current_price": 4678.10009765625,
+    "source": "production_inference",
+    "actual_signal_date": "2026-05-14",
+    "regime": "downtrend_medium",
+    "p_up_trend_5d": 0.5862,
+    "above_threshold": true,
+    "cooldown_remaining": 3,
+    "rationale": "GOLD p_up=0.507, режим=downtrend_medium, cooldown ещё 3d",
+    "paper_trade": {
+      "executed": false,
+      "skipped_reason": "signal=HOLD — paper trade не нужен"
+    }
+  }
+}

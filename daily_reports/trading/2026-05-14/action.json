@@ -1,0 +1,18 @@
+{
+  "date": "2026-05-14",
+  "time_utc": "2026-05-14T18:16:50.098756+00:00",
+  "ticker": "SLVRUBF",
+  "signal": "HOLD",
+  "p_up": NaN,
+  "p_short": 0.0,
+  "rationale": "p_up=nan vs threshold; режим=uptrend_medium",
+  "current_price": 85.12999725341797,
+  "recommendation": "⚪ ДЕРЖАТЬ (нет нового сигнала). p_up=nan < threshold.",
+  "actual_signal_date": "2026-05-12",
+  "regime": "uptrend_medium",
+  "paper_trade": {
+    "executed": false,
+    "skipped_reason": "TINKOFF_TOKEN не задан в env"
+  },
+  "portfolio_status": "ERROR rc=2: ERROR: переменная TINKOFF_TOKEN не задана.\nСоздайте файл .env (см. .env.example) с токеном sandbox.\n"
+}
