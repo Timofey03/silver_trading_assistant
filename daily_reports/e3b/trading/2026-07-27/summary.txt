@@ -1,4 +1,4 @@
-E3b Daily Trading Signal — 2026-07-27 @ 134049 UTC
+E3b Daily Trading Signal — 2026-07-27 @ 202703 UTC
 ==================================================
 
   Alert type:     INFO
@@ -6,8 +6,8 @@ E3b Daily Trading Signal — 2026-07-27 @ 134049 UTC
   Сигнал «BUY» уже был выдан в 2026-07-27. Если уже отреагировал — повторно ничего делать не нужно.
 
   Date:           2026-07-27T00:00:00
-  Silver close:   $59.01
-  Probability:    p_up = 0.7844
+  Silver close:   $58.80
+  Probability:    p_up = 0.7867
   Current signal: BUY
   Previous:       BUY (2026-07-27)
 
